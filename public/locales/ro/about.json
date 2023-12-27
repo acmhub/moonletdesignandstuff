@@ -1,0 +1,49 @@
+{
+	"meta_desc": "Moonlet este studio-ul meu de design, unde sunt create lucruri frumoase cu scopul de a ajuta afacerile să se dezvolte. Un loc în care o idee sau un concept evoluează și ia forma potrivită. Un spațiu în care o companie simplă poate fi transformată într-un brand fain.",
+
+	"biography": {
+		"imdiana": "Buna, sunt Diana!",
+		"designerbehind": "Designer-ul din spatele Moonlet",
+		"description": "În copilărie eram fascinată de felul în care imaginile se combinau cu font-urile în reviste, așa că le decupam pe cele drăguțe pentru a-mi face propriile colaje. Ani mai târziu am descoperit că se poate face acest lucru, și mult mai multe, cu un anumit software de design. De atunci suntem nedespărțiți. Cea mai faină și satisfăcătoare parte a activității de design este că pot contribui la dezvoltarea afacerii și visului cuiva. Yey!",
+		"specs": "Absolventă de Publicitate | 10 ani de Experiență în Design"
+	},
+
+	"whyus": {
+		"whydesign": {
+			"title": "De ce design?",
+			"description": "Fiind o persoană care iubește atât artele, cât și știința, design-ul părea amestecul perfect între cele două lumi. Este un mijloc de creație artistică cu un scop specific de business, așa că mi-a permis să-mi utilizez amblele seturi de abilități, în direcția potrivită."
+		},
+
+		"whymoonlet": {
+			"title": "De ce Moonlet?",
+			"description": ",Moonlet', în engleză, înseamnă un satelit natural minor, deci o lună mai mică. Denumirea și scopul creării acestui brand de design studio este de a ajuta companiile personale, mici și mijlocii să strălucească prin identitatea lor vizuală, precum ar face-o un obiect ceresc."
+		},
+
+		"mission": {
+			"title": "MISIUNE",
+			"description": "Crearea design-ului estetic, ce atinge toate obiectivele practice ale companiei"
+		},
+
+		"vision": {
+			"title": "VIZIUNE",
+			"description": "Contribuirea la creștere business-ului,  prin exprimarea vizuală a personalității sale"
+		},
+
+		"values": {
+			"title": "VALORI",
+			"description": "Creativitate, imaginație, înțelegere, livrarea calității și împlinirea potențialului"
+		}
+	},
+
+	"fields": {
+		"whatwedo": "Ce realizăm",
+		"often": "Cel mai des",
+
+		"branding": "Branding",
+		"logo": "Design de logo",
+		"stationery": "Papetărie",
+		"others": "Altele",
+
+		"paragraph": "Da, acestea sunt principalele categorii de proiecte de design preluate, și deși ador partea vizuală a branding-ului și tot ceea ce se leagă de aceasta, dacă proiectul tău se află într-o altă categorie, te rog nu ezita să îmi scrii. Design-ul este un domeniu amplu și intercalat, pe care mereu mă bucur să-l explorez împreună cu clienții mei, prin proiectele lor."
+	}
+}

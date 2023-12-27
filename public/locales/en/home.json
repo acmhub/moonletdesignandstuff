@@ -1,0 +1,52 @@
+{
+	"meta_desc": "We are a studio where nice stuff is created with the purpose of helping businesses grow through visual branding and design work.",
+
+	"landing": {
+		"title": "Wanna be seen?",
+		"paragraph": "You've built a company from scratch and now want to take the next step towards achievement. In a sea of businesses, it's a challenge to stand out these days. Unless you have a properly done branding.",
+		"button": "Make my brand shine"
+	},
+
+	"about": {
+		"hello": "Hello!",
+		"imdiana": "I'm Diana, your designer",
+		"description": "Moonlet is my design studio where nice stuff is created with the purpose of helping businesses grow. A place where an idea or a concept evolves and takes the right shape. A space where a plain company can be transformed into a great brand.",
+		"learnmore": "Learn more about"
+	},
+
+	"projects": {
+		"together": "Together we'll",
+		"explore": "Explore the visual style which fits best the voice and personality of your business",
+		"create": "Create and design the logo and the branding set according to your vision and goals",
+		"turn": "Turn your business into a real brand, which stands out to clients through a cohesive look",
+		"like": "like these",
+		"morework": "See More Work"
+	},
+
+	"services": {
+		"whatwecan": "What we can do for you",
+		"focus": "As you can see, our main focus is business branding design, structured into three types of packs to fit all client needs. Ranging from the basics - which covers everything logo-wise, to the full branding set.",
+		"packs": "our packs",
+		"basic": "Basic Pack",
+		"essential": "Essential Pack",
+		"extra": "Extra Pack",
+		"description": "Our packs have been constructed with thoughtfulness to the emerging brand and the ones behind it. Of course, if your project does not fit these lines, you can make an inquiry, which we'll promptly answer.",
+		"seeservices": "See our services"
+	},
+
+	"clients": {
+		"some": "Some of our",
+		"happy": "Happy Clients"
+	},
+
+	"cta": {
+		"ready": "Ready to start",
+		"process": "the Designing Process",
+		"description": "Such a short space can't contain all the benefits you can enjoy if you choose to upgrade your company to a real brand. Harmonious, coherent images rid businesses of anonymity and helps them take shape as established brands. I can help you create a visual foundation and structure for your business.",
+		"letsdothis": "Let's do this"
+	},
+
+	"insta": {
+		"follow": "Follow us on Insta"
+	}
+}

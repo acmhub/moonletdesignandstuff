@@ -1,0 +1,81 @@
+{
+	"title": "Moonlet Design&Stuff - Branding Visual și Design",
+	"meta_desc": "Suntem un studio de branding și design grafic unde chestii faine sunt create cu scopul de a ajuta businessuri să crească.",
+
+	"booking": {
+		"months": {
+			"0": "Ianuarie",
+			"1": "Februarie",
+			"2": "Martie",
+			"3": "Aprilie",
+			"4": "Mai",
+			"5": "Iunie",
+			"6": "Iulie",
+			"7": "August",
+			"8": "Septembrie",
+			"9": "Octombrie",
+			"10": "Noiembrie",
+			"11": "Decembrie"
+		},
+		"bookForMonth": "Colaborări pentru {{monthName}}.",
+		"enquireNow": "Rezervă acum!"
+	},
+
+	"nav": {
+		"home": "Acasă",
+		"services": "Servicii",
+		"about": "Despre",
+		"portfolio": "Portofoliu",
+		"contact": "Contact"
+	},
+
+	"footer": {
+		"cookie": "Politica de Confidențialitate și Cookie-uri",
+		"terms": "Termeni si Condiții"
+	},
+
+	"testimonials": {
+		"clientfeedback": "Feedback-ul clientului",
+		"process": "procesul",
+		"working": "lucrand cu mine",
+		"outcome": "rezultatul",
+
+		"services_feedback": "Am avut o experiență fenomenală cu Diana. [...] Ea se străduiește să îți înțeleagă cu adevărat brand-ul și viziunea, folosind tehnici creative, cum ar fi sondaje ale clienților și exemple pentru a realiza un brand moodboard. Ea folosește aceste informații pentru a construi o întreagă strategie de identitate care să cuprindă numeroase elemente vizuale. De asemenea, ea oferă mai multe opțiuni la fiecare pas. [...] Am angajat numeroși designeri de logo și niciunul dintre ei nu a fost la fel de minuțios ca Diana. Zece din zece!",
+		"about_feedback": "Diana a fost foarte comunicativă și super profesionistă de-a lungul timpului în care am lucrat împreună! Ea chiar depune efortul de a înțelege organizația ta și ce fel de identitate de brand te-ar interesa. O recomand cu căldură pe Diana pentru următorul tău proiect de logo și consultanță în design!",
+		"contact_feedback": "A fost excepțional să lucrez cu Diana!! Chiar și-a făcut timp să înțeleagă ce căutam și a dat viață brand-ului meu! Aș recomanda-o pe Diana de un milion de ori și cu siguranță voi lucra cu ea pentru orice alte nevoie de branding în viitor."
+	},
+
+	"project": {
+		"findit": "Vezi pe",
+		"thanks": "Mersi ca ai citit",
+		"prev": "Inapoi",
+		"next": "Inainte"
+	},
+
+	"cookies": {
+		"banner_p1": "Știam că vii așa că ți-am copt niște cookies. Citește mai multe despre rețeta folosită de site-ul nostru pe",
+		"banner_p2": "pagina de cookies.",
+		"functionality": "Funcţionalitate",
+		"performance": "Performanță și Analiză",
+		"decline": "Refuză",
+		"accept": "Acceptă",
+
+		"toggle": "Modificați mai jos utilizarea cookie-urilor",
+		"denied": "Refuzate",
+		"granted": "Acceptate"
+	},
+
+	"404": {
+		"meta_title": "Oops - Moonlet Design&Stuff - Branding Visual și Design",
+		"error": "Eroare",
+		"paragraph": "Se pare că, din păcate, pagina pe care o căutai nu mai este disponibilă, sau link-ul nu este valid.",
+		"back": "Înapoi la prima pagină"
+	},
+
+	"formValidation": {
+		"full_name": "Numele trebuie completat.",
+		"email": "Adresa de email trebuie să fie validă.",
+		"subject": "Subiectul trebuie completat.",
+		"message": "Mesajul trebuie completat."
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"title": "Politica de Cookie-uri",
+	"ofmoonlet": "ale Moonlet Design&Stuff",
+	"longtitle": "Politica de confidențialitate și cookie a Moonlet Design&Stuff",
+
+	"general": {
+		"title": "Informații generale",
+		"paragraph1": "Această politică de confidențialitate descrie felul în care colectăm și utilizăm informațiile dumneavoastră ('dumneavoastră', 'dvs', 'utilizator/client/vizitator') atunci când vizitați moonletdesign.com, website-ul Moonlet Design&Stuff ('noi', 'nostru', 'nouă').",
+		"paragraph2": "Acest website este operat de Moonlet Design&Stuff (Preda C Diana Întreprindere Individuală), cu sediul în Brașov, România.",
+		"paragraph3": "Ne rezervăm dreptul de a face schimbări acestei politici de confidențialitate în orice moment. Vă recomandăm să citiți această pagină des, verificând data ultimei modificări, ce va fi consemnată aici.",
+		"paragraph4": "Politica de confidențialitate a fost modificată ultima dată în: 12 Decembrie 2023."
+	},
+
+	"datatype": {
+		"title": "Ce tip de date colectăm",
+		"paragraph1": "Datele/informațiile personale înseamnă orice informație referitoare la individ din care acea persoană poate fi identificată. Aceasta nu include informațiile unde identitatea a fost îndepărtată - date anonime. Tipurile de date pe care le colectăm prin acest website pot fi găsite mai jos:",
+		"paragraph2": "Date de identitate - numele și prenumele, numele companiei. Aceste date sunt colectate atunci când completați formularul de contact.",
+		"paragraph3": "Date de contact - adresa de e-mail. Aceste date sunt colectate atunci când completați formularul de contact.",
+		"paragraph4": "Date tehnice - adresa de IP (Internet Protocol), tipul de browser, fusul orar, locația, sistemul de operare și platformele și alte device-uri folosite pentru a accesa acest website. Datele sunt colectate prin intermediul unui terț, Google Analytics.",
+		"paragraph5": "Date de tracking (urmărire) - informații ce sunt colectate de la dvs. prin cookie-uri. Cookie-urile sunt mici fragmente de informații stocate de browser pe computerul sau dispozitivul dumneavoastră mobil. Vedeți secțiunea 5 pentru mai multe detalii."
+	},
+
+	"collection": {
+		"title": "Cum sunt datele personale colectate",
+		"paragraph1": "Datele personale sunt colectate pentru următoarele scopuri și folosind următoarele servicii:",
+
+		"ga": {
+			"title": "Google Analytics",
+			"paragraph1": "Google Analytics este un serviciu de analiză web oferit de Google, și utilizează datele colectate pentru a urmări și examina felul în care acest website este utilizat, a pregăti rapoarte despre activitățile sale și a le împărtăși cu alte servicii Google.",
+			"paragraph2": "Google poate folosi datele colectate pentru a contextualiza și personaliza reclamele propriei rețele de publicitate.",
+			"paragraph3": "Le puteți citi politica de confidențialitate <a href='https://policies.google.com/privacy?hl=ro' style='text-decoration: underline'>aici.</a>"
+		},
+
+		"contactform": {
+			"title": "Formularul de contact (de pe website)",
+			"paragraph1": "Când ne contactați prin intermediul formularului de contact de pe website, completând câmpurile necesare (nume, prenume, numele companiei, e-mail, serviciul dorit și mesajul), ne autorizați să folosim acele detalii pentru a vă răspunde la orice nevoie pentru mai multe informații, întrebare sau cerință."
+		},
+
+		"dm": {
+			"title": "E-mail direct",
+			"paragraph1": "În cazul în care alegeți să ne contactați direct și nu prin intermediul formularului de contact de pe website, atunci ne veți oferi datele dvs. personale necesare prin intermediul serviciului de e-mail.",
+			"paragraph2": "Majoritatea interacțiunii cu clientul se va face prin e-mail, indiferent de felul în care a avut loc primul contact."
+		},
+
+		"questionnaire": {
+			"title": "Chestionar",
+			"paragraph1": "La începutul colaborării noastre, vă vom ruga să completați un chestionar Google, creat pentru a obține informații privind designul, și persoana/compania ce comandă serviciul. Vom folosi datele primite de la dvs. pentru a crea produsul ce l-ați cerut și dorit.",
+			"paragraph2": "Puteți citi politica de confidențialitate <a href='https://policies.google.com/privacy?hl=en-US' style='text-decoration: underline'>aici.</a>"
+		},
+
+		"socialmedia": {
+			"title": "Rețele de socializare",
+			"paragraph1": "Acest tip de serviciu permite interacțiunea cu rețele de socializare sau alte platforme externe direct din paginile acestui site. Interacțiunea și informațiile obținute prin acest website sunt întotdeauna supuse setărilor de confidențialitate ce utilizatorul le are pentru fiecare rețea de socializare în parte. Acest tip de serviciu se poate să colecteze date despre trafic pentru paginile unde este instalat, chiar daca utilizatorii nu îl folosesc."
+		}
+	},
+
+	"purpose": {
+		"title": "Scopul procesării de date",
+		"paragraph1": "Datele privind utilizatorul sunt colectate pentru a ne permite să ne oferim serviciile, precum și pentru următoarele scopuri: analiza, contactarea utilizatorului și interacțiunea cu rețele de socializare și platforme externe.",
+		"paragraph2": "Puteți găsi detalii adiționale despre aceste scopuri de procesare și despre datele personale folosite pentru fiecare scop în secțiunile respective ale acestei politici."
+	},
+
+	"cookiesuse": {
+		"title": "Cookies și cum le folosim",
+		"paragraph1": "Cookie-urile sunt fragmente mici de informații stocate pe computerul sau dispozitivele dumneavoastră mobile, de către browserul web. Sunt folosite de obicei pentru a menține setările făcute de utilizator și acțiunile făcute pe website. De asemenea ajută la personalizarea și îmbunătățirea experienței dvs. cu un website.",
+		"paragraph2": "<p>Acest website folosește cookie-uri pentru mai multe motive importante:</p><ul style='padding-left: 1.25rem;'><li>- Crearea unei experiențe bune pentru vizitatori și clienți.</li><li>- Monitorizarea și analizarea performanței, operațiunilor și eficienței sale.</li><li>- Asigurarea faptului că platforma este protejată și în siguranță pentru folosință.</li></ul>"
+	},
+
+	"datause": {
+		"title": "Cum sunt datele dvs. personale folosite",
+		"paragraph1": "<p>Datele dvs. personale vor fi folosite:</p><ul style='padding-left: 1.25rem;'><li>-atunci când vă răspundem la mesaje și la întrebări transmise prin intermediul website-ului sau e-mail-ului direct</li><li>- atunci când creăm contractul dvs. pentru a beneficia de serviciile noastre, și factura de la începutul și finalul acelor servicii</li><li>- atunci când vă trimitem produsul/produsele finale (fișierele finale)</li><li>- pentru a ne îmbunătăți serviciile prin informațiile colectate via Google Analytics. Informațiile strânse ne vor ajuta să măsurăm traficul și utilizarea, incluzând paginile pe care le vizitați pe websiteul nostru, browserul pe care îl folosiți și locația de unde ați accesat websiteul.</li></ul>"
+	},
+
+	"datakept": {
+		"title": "Cât timp sunt reținute datele dvs. personale",
+		"paragraph1": "Suntem obligați sub legea din România (art. 25 alin. (1) din Legea contabilitatii nr. 82/1991) să păstrăm datele personale ale clienților (nume, adresă, etc.) pentru minim 10 ani. Datele trimise prin mesajele ce nu se transformă în vânzări sunt reținute pentru mai puțin timp."
+	},
+
+	"storesharedisclose": {
+		"title": "Cum sunt stocate, împărtășite și dezvăluite datele dvs. personale",
+		"paragraph1": "Întreprinderea noastă este menținută pe AWS, platforma on-line ce ne permite să ne prezentăm și vindem serviciile noastre dumneavoastră. Datele dvs. sunt depozitate prin stocarea de date, bazele lor de date și aplicațiile generale. Aceștia stochează datele pe un server sigur în spatele unui firewall.",
+		"paragraph2": "De asemenea, datele dvs. din documentele oficiale cum ar fi contractul și factura vor fi adaugate în siguranță dosarelor noastre fizice de proiect.",
+		"paragraph3": "Nu împărtășim sau dezvăluim informațiile dumneavoastră cu nimeni, doar dacă am stabilit împreună că putem proceda așa."
+	},
+
+	"3rdparty": {
+		"title": "Linkuri terțe",
+		"paragraph1": "Acest website poate include linkuri către terțe websiteuri, plug-in-uri sau aplicații. Accesând aceste linkuri sau pornind aceste conexiuni este posibil să permiteți altor terțe părți să colecteze sau să împărtășească datele despre dumneavoastră. Noi nu controlăm aceste terțe website-uri și nu suntem responsabili pentru politicile lor de confidențialitate. Vă încurajăm să citiți politicile de confidențialitate a tuturor website-urilor ce le accesați."
+	},
+
+	"legalrights": {
+		"title": "Drepturile dvs. legale",
+		"paragraph1": "Dacă General Data Protection Regulation se aplică dumneavoastră deoarece sunteți în Uniunea Europeană, aveți drepturi sub legile de protecție a datelor personale.",
+		"paragraph2": "Dacă în orice moment credeți că informațiile ce le procesăm despre dvs. sunt incorecte, puteți cere să le vedeți sau sa le aveți corectate/șterse (în afara situației în care legea din România ne cere să le păstrăm). Contactați-ne prin e-mail pentru a rezolva situația.",
+		"paragraph3": "Dacă doriți să faceți o plângere privind procesarea datelor dvs., vă rugăm să ne contactați prima oară pe hello@moonletdesign.com pentru a rezolva situația și a o rectifica în siguranță."
+	},
+
+	"children": {
+		"title": "Utilizarea website-ului de către minori",
+		"paragraph1": "Nu oferim servicii ce pot fi achiziționate de persoane sub 18 ani și nu ne facem publicitate copiilor. Daca cineva sub 18 ani dorește să ne achiziționeze serviciile, pot face acest lucru prin intermediul tutorelui legal. Acest website este sigur pentru a fi vizualizat de către orice grup de vârstă."
+	},
+
+	"contact": {
+		"title": "Contact",
+		"paragraph1": "Daca aveți nevoie de informații privind această poliță de confidențialitate, daca aveți orice întrebare sau ați dori să faceți o plângere, vă rugăm să ne contactați pe e-mail la adresa <a href='mailto:hello@moonletdesign.com' style='text-decoration: underline;'>hello@moonletdesign.com</a>"
+	}
+}

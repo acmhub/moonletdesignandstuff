@@ -1,0 +1,52 @@
+{
+	"email-sent": "Thank you for your message! I will reply as soon as possible.",
+	"email-error": "Oops! Something went wrong, please try again later.",
+
+	"details": {
+		"getintouch": "Let's get in touch!",
+		"paragraph": "Something caught your eye and you want to make this happen? You are interested in a service and need further assistance? Have a project in mind and you're not sure if it's in our service range? For finding answers to any of these questions or others, fill out the contact form below and we'll get back to you ASAP.",
+		"info": "our contact info",
+		"email": "Email at",
+		"write": "Write on",
+		"hours": "Working Hours",
+		"timezone": "Timezone"
+	},
+
+	"form": {
+		"fillout": "Fill out the",
+		"contactform": "Contact form",
+
+		"fullname": "Full Name",
+		"email": "E-mail",
+		"company": "Company Name",
+		"subject": "Subject",
+		"industry": "Business Industry",
+		"source": "Where did you hear about Moonlet",
+
+		"interested": "Interested in",
+		"base": "Base Pack",
+		"essential": "Essential Pack",
+		"extra": "Extra Pack",
+		"other": "Other",
+
+		"message": "Message",
+		"send": "Send it"
+	},
+
+	"faq": {
+		"frequentlyasked": "Frequently Asked Questions",
+
+		"q1": "How long does it take to get the final designs?",
+		"a1": "Depending on the pack or service, the time spent on communication and other on-going projects, it can take between 2 to 6 weeks. You will be given a better time-frame after we can assess your project. Punctuality and promptness are important values to us, but we never rush through a job, and always choose to create quality over quantity.",
+		"q2": "How does the payment work?",
+		"a2": "At the beginning of our collaboration, after every information regarding the service and price is clear, you make a 50% deposit which is non-refundable. When the project is completed and you are perfectly satisfied with the result, the other 50% are payed, and the files transfered.",
+		"q3": "How do we keep in touch?",
+		"a3": "As this is an on-line based design studio open to clients all over the world, we communicate through e-mail mostly. It is efficient, ideas can be expressed at length and our correspondence will be the base of the project. For some urgent matters that require a more direct channel of communication, we can easily use Facebook chat on our <a href='https://www.facebook.com/moonletdesignstuff/' class='text-green underline' target='_blank'>Moonlet Design&Stuff</a> account.",
+		"q4": "Do you offer web-design services?",
+		"a4": "Any brand which plans on having an on-line presence should consider getting a website. After receiving your custom made branding, you could get yourself a matching site. For our own web development needs and for those of our clients, we collaborate with a great web design studio. Write us an e-mail and we'll set you up with the contact info.",
+		"q5": "What if I need help with the design after the project ended?",
+		"a5": "We are here to answer any question you might have, and also offer support in some manners. Of course, any big changes or additional projects might be available to buy. Leave us a message and we'll find a solution together.",
+		"q6": "Where can I leave you a review?",
+		"a6": "We appreciate all and any feedback our clients have to give, regarding every aspect of the entire design process. This also helps other people learn if they would benefit and enjoy working with us. You can leave a comment on any social media we use, and for reviews specifically, there is the <a href='https://www.facebook.com/moonletdesignstuff/reviews' class='text-green underline' target='_blank'>Facebook rating section.</a>"
+	}
+}

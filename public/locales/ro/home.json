@@ -1,0 +1,52 @@
+{
+	"meta_desc": "Suntem un studio de branding și design grafic unde chestii faine sunt create cu scopul de a ajuta businessuri să crească.",
+
+	"landing": {
+		"title": "ÎȚI DOREȘTI VIZIBILITATE?",
+		"paragraph": "Ți-ai construit o companie de la zero și acum ești gata pentru pasul următor spre realizare. Într-o mare de business-uri, este greu să te evidențiezi în ziua de azi. Nu și dacă ai un branding bine pus la punct.",
+		"button": "Brand-ul tău briliant"
+	},
+
+	"about": {
+		"hello": "Hello!",
+		"imdiana": "Sunt Diana, designer-ul tău",
+		"description": "Moonlet este studio-ul meu de design, unde sunt create lucruri frumoase cu scopul de a ajuta afacerile să se dezvolte. Un loc în care o idee sau un concept evoluează și ia forma potrivită. Un spațiu în care o companie simplă poate fi transformată într-un brand fain.",
+		"learnmore": "Află mai multe"
+	},
+
+	"projects": {
+		"together": "Împreună vom",
+		"explore": "Explora stilul vizual care se potrivește cel mai bine vocii și personalității afacerii tale",
+		"create": "Crea și realiza logo-ul și setul de branding în funcție de viziunea și obiectivele tale",
+		"turn": "Transforma afacerea într-un brand adevărat, ce se face remarcat printr-un look unitar",
+		"like": "precum acestea",
+		"morework": "Vezi portofoliul"
+	},
+
+	"services": {
+		"whatwecan": "CU CE TE PUTEM AJUTA",
+		"focus": "După cum poți vedea, obiectivul nostru principal este design-ul de brand al afacerilor, structurat în trei tipuri de pachete pentru a se potrivi nevoilor fiecărui client. De la elementele de bază - care acoperă totul din punct de vedere al logo-ului, până la setul complet de branding.",
+		"packs": "pachetele noastre",
+		"basic": "Pachetul Basic",
+		"essential": "Pachetul Essential",
+		"extra": "Pachetul Extra",
+		"description": "Aceste pachete au fost concepute cu atenție pentru brand-ul în curs de dezvoltare și cei din spatele acestuia. Desigur, dacă proiectul tău are cerințe specifice, ne poți lăsa un mesaj pentru a discuta mai în detaliu.",
+		"seeservices": "Vezi serviciile noastre"
+	},
+
+	"clients": {
+		"some": "O parte dintre",
+		"happy": "Clientii fericiti"
+	},
+
+	"cta": {
+		"ready": "Gata pentru a începe",
+		"process": "Procesul de Design",
+		"description": "Un spațiu atât de scurt nu poate cuprinde toate beneficiile de care te poți bucura dacă alegi să-ți transformi compania într-un brand adevărat. Vizualurile armonioase și coerente scot afacerile din anonimat, le fac să prindă contur și să obțină recunoaștere. Iar eu te pot ajuta în crearea fundației și structurii vizuale a afacerii tale.",
+		"letsdothis": "Să începem"
+	},
+
+	"insta": {
+		"follow": "Urmareste-ne pe Insta"
+	}
+}

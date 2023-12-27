@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.container {
+		@apply max-w-big mx-auto px-8 xl:px-0;
+	}
+
+	.section-spacing {
+		@apply py-20;
+	}
+
+	.top-spacing {
+		@apply pt-20;
+	}
+
+	.nav-link {
+		@apply block w-fit mx-auto text-sm lg:m-0 font-montserrat hover:brightness-150 hover:contrast-150 px-4 py-1.5 transition-all duration-150;
+	}
+
+	.nav-link.active {
+		@apply text-white;
+	}
+
+	.header-gradient {
+		@apply absolute top-0 left-0 h-[900px] w-full bg-gradient-to-b from-mauve to-dark z-0;
+	}
+
+	.button {
+		@apply px-8 py-4;
+	}
+
+	.block-text {
+		@apply block text-center font-taviraj lg:max-w-regular mx-auto;
+	}
+
+	/**
+	 * Contact form
+	 */
+	.form-input {
+		@apply relative my-5;
+	}
+
+	.form-input.error-input label {
+		color: red;
+	}
+
+	.form-input.error-input input,
+	.form-input.error-input textarea {
+		border-color: red !important;
+	}
+
+	.form-input label {
+		@apply font-montserrat text-[15px] normal-case text-beige;
+	}
+
+	.form-input input[type="text"],
+	.form-input textarea {
+		@apply bg-transparent w-full outline-none border-b border-beige p-2;
+	}
+
+	input,
+	textarea {
+		@apply font-montserrat text-white normal-case font-thin;
+	}
+
+	/**
+	 * Miscellaneous
+	 */
+	.arrow-hover {
+		@apply transition ease-out duration-200 -translate-x-1 group-hover:translate-x-0;
+	}
+
+	/**
+	 * Fonts
+	 */
+	.font-signature {
+		@apply text-7xl -mt-3;
+	}
+
+	.font-montserrat {
+		@apply text-green font-semibold tracking-[0.15em] uppercase;
+	}
+
+	.font-taviraj {
+		@apply font-medium tracking-wider leading-8;
+	}
+}

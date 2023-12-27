@@ -1,0 +1,60 @@
+{
+	"meta_desc": "Our main focus is business branding design, structured into three types of packs to fit all client needs. Ranging from the basics - which covers everything logo-wise, to the full branding set.",
+
+	"steps": {
+		"ourcreative": "Our creative",
+		"process": "process & steps",
+
+		"homework": {
+			"title": "Client Homework: Questionnaire & Pinterest",
+			"description": "You receive a questionnaire regarding your brand and any information needed to create a custom visual identity. Also, you get to create a Pinterest board with images that suggest the creative direction we are heading to."
+		},
+		"moodboard": {
+			"title": "The Moodboard is created from inspiration Pins",
+			"description": "From your Pinterest selections and others we make a moodboard, which is a stylistic collage reflecting the brands personality and tone. Based on it you can also adapt other aspects of your company such as social media presence or interior design choices."
+		},
+		"sketch": {
+			"title": "The Main Logo: First Sketches and Drafts",
+			"description": "At this point we have all the needed info, so the making of your main logo begins. You get to choose from 2 options. After you decide on the one you like, we make revisions so that you're completely pleased with your new logo."
+		},
+		"visual": {
+			"title": "Visual Identity elements are added to the brand",
+			"description": "During this step we add the other elements that shape up a brand as logo variations, favicon, typography, color palette. All of them are included in the brand style sheet which will be the future reference for any visual decisions regarding the company."
+		},
+		"collateral": {
+			"title": "The Collateral elements are designed",
+			"description": "If the pack you chose has collaterals included, then we make those on this step. Business cards, letterhead, envelope etc. are designed with all brand elements and with the information provided by you such as specific dimensions and data."
+		},
+		"handover": {
+			"title": "Handover Time: You get all the final files",
+			"description": "The process is complete. You can now receive all the files you'll be needing in the future with all the items included in the pack you chose! Of course, explanations are also provided regarding technical details. What's left to do is enjoy your new brand identity."
+		}
+	},
+
+	"packs": {
+		"choose": "choose yourself a",
+		"brandingpack": "Branding Pack",
+
+		"description": "Description",
+		"included": "Included items",
+		"timeline": "Timeline",
+		"pricing": "Pricing",
+		"price_disclaimer": "The price can slightly vary, depending on project complexity.",
+		"select": "Select"
+	},
+
+	"cta": {
+		"doesntfit": "IF YOUR PROJECT DOESN'T FIT THE PACKS",
+		"writeus": "Please write us a message and we'll get back to you ASAP. Our main service is branding, but other design projects are also possible. All packs work for rebranding too. Don't hesitate to give your company a well deserved make-over. You'll get great results with a new image which fits your brand perfectly, even if it comes later on.",
+		"other": "Other Designs",
+
+		"socialmedia": "Social Media",
+		"illustration": "Illustration",
+		"presentation": "Presentation",
+		"poster": "Poster/Print",
+		"event": "Event Items",
+		"brochure": "Brochure/Flyer",
+		"book": "Book Cover",
+		"others": "And others"
+	}
+}

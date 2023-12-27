@@ -1,0 +1,60 @@
+{
+	"meta_desc": "Obiectivul nostru principal este design-ul de brand al afacerilor, structurat în trei tipuri de pachete pentru a se potrivi nevoilor fiecărui client. De la elementele de bază - care acoperă totul din punct de vedere al logo-ului, până la setul complet de branding.",
+
+	"steps": {
+		"ourcreative": "Procesul nostru",
+		"process": "Creativ / Pași",
+
+		"homework": {
+			"title": "Tema Clientului: Chestionar & Pinterest",
+			"description": "Primești un chestionar cu privire la brandul tău și la orice informații necesare pentru a crea o identitate vizuală particulară. De asemenea, vei crea un panou Pinterest cu imagini ce sugerează direcția creativă spre care ne îndreptăm."
+		},
+		"moodboard": {
+			"title": "Moodboard-ul este creat din Pinuri de inspirație",
+			"description": "Din selecțiile tale Pinterest și altele, realizăm  moodboard-ul, un colaj stilistic ce reflectă personalitatea și tonul brand-ului. Pe baza acestuia, poți adapta și alte aspecte ale companiei tale, cum ar fi prezența în social media sau alegerile de design interior."
+		},
+		"sketch": {
+			"title": "Logo-ul: primele Schițe și Concepte",
+			"description": "În acest moment avem toate informațiile necesare, așa că începe realizarea logo-ului principal. Poți alege dintre 3 opțiuni. După ce te decizi pe care îl preferi, facem revizuiri astfel încât să fii complet mulțumit de noul tău logo."
+		},
+		"visual": {
+			"title": "Elementele de Identitate Vizuală sunt adăugate",
+			"description": "În cadrul acestui pas adăugăm și celelalte elemente care conturează un brand, cum ar fi variațiile de logo, favicon, text, paletă de culori. Toate acestea sunt incluse în fișa de stil care va reprezenta un punct de referință pentru orice decizie vizuală a companiei."
+		},
+		"collateral": {
+			"title": "Elementele Colaterale sunt realizate",
+			"description": "Dacă pachetul pe care l-ai ales are extra elemente incluse, atunci le creăm în acest pas. Cărțile de vizită, foaia cu antet, plicurile etc. sunt concepute cu toate caracteristicile brand-ului și cu informațiile furnizate de tine, cum ar fi dimensiuni și date specifice."
+		},
+		"handover": {
+			"title": "Predarea Pachetului: primești toate fișierele",
+			"description": "Procesul este finalizat. Acum poți primi toate fișierele de care vei avea nevoie în viitor, cu toate elementele incluse în pachetul pe care l-ai ales! Desigur, sunt oferite explicații și cu privire la detalii tehnice. Ceea ce rămâne de făcut este să te bucuri de noua ta identitate de brand."
+		}
+	},
+
+	"packs": {
+		"choose": "alege un",
+		"brandingpack": "Pachet de Branding",
+
+		"description": "Descriere",
+		"included": "Articole incluse",
+		"timeline": "Perioada",
+		"pricing": "Pret",
+		"price_disclaimer": "Prețul poate varia puțin, în funcție de complexitatea proiectului.",
+		"select": "Alege"
+	},
+
+	"cta": {
+		"doesntfit": "DACĂ PROIECTUL TĂU NU SE ÎNCADREAZĂ ÎN TIPARE",
+		"writeus": "Scrie-ne, te rog, un mesaj și te vom contacta cât de curând. Serviciul principal oferit este branding-ul, dar sunt posibile și alte proiecte de design. Toate pachetele funcționează și pentru rebranding. Nu ezita să oferi companiei tale o schimbare bine meritată. Vei obține rezultate notabile cu o nouă imagine care se potrivește perfect brand-ului tău, chiar dacă aceasta este creată mai târziu.",
+		"other": "Alte Modele",
+
+		"socialmedia": "Social Media",
+		"illustration": "Ilustraţii",
+		"presentation": "Prezentări",
+		"poster": "Postere",
+		"event": "Print Event",
+		"brochure": "Broșură/Flyer",
+		"book": "Copertă de Carte",
+		"others": "și altele"
+	}
+}

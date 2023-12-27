@@ -1,0 +1,49 @@
+{
+	"meta_desc": "Moonlet is my design studio where nice stuff is created with the purpose of helping businesses grow. A place where an idea or a concept evolves and takes the right shape. A space where a plain company can be transformed into a great brand.",
+
+	"biography": {
+		"imdiana": "Hi, I'm Diana!",
+		"designerbehind": "The Designer behind Moonlet",
+		"description": "As a kid I used to be fascinated with the way pictures combined with fonts in magazines, so I cut the nice ones in order to make new collages myself. Years later I discovered one can do that with particular design software and much more. Since then we've been inseparable. The best and most rewarding part of designing is I get to contribute to a someone's business and dream grow. Yey!",
+		"specs": "Advertising Graduate | 10 Years Design Experience"
+	},
+
+	"whyus": {
+		"whydesign": {
+			"title": "Why design?",
+			"description": "As someone who enjoys both arts and sciences, design felt like the perfect blend of these worlds. It's a means of artistic creation with a specific business purpose, so it allowed me to express a good mix on my skills, for the right reason."
+		},
+
+		"whymoonlet": {
+			"title": "Why Moonlet?",
+			"description": "A moonlet is a minor natural satellite, so a smaller moon. The naming and the goal of making this design studio brand is to help personal, small and medium businesses shine through their visual identity, just like a celestial object would."
+		},
+
+		"mission": {
+			"title": "MISSION",
+			"description": "Making beautiful designs, which achieve all practical goals for their brands"
+		},
+
+		"vision": {
+			"title": "VISION",
+			"description": "Helping businesses grow through visually expressing their personality and core"
+		},
+
+		"values": {
+			"title": "VALUES",
+			"description": "Creativity, imagination, understanding, high quality, and potential-fulfilling"
+		}
+	},
+
+	"fields": {
+		"whatwedo": "What we do",
+		"often": "Often & Best",
+
+		"branding": "Branding",
+		"logo": "Logo designs",
+		"stationery": "Stationery",
+		"others": "Others",
+
+		"paragraph": "Yes, these are the main categories of design projects taken on, and while I love the visual part of branding and everything connected to it, if your project is in a different category, please don't hesitate to write. Design is a vast, interlaced subject, which I always enjoy exploring further and together with my clients."
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"email-sent": "Îți mulțumesc pentru mesaj! Voi răspunde cât mai curând posibil.",
+	"email-error": "Oops! Vă rugăm să încercați din nou mai târziu.",
+
+	"details": {
+		"getintouch": "Sa luam legatura!",
+		"paragraph": "Ceva ți-a atras atenția și vrei să treci la fapte? Te interesează un anumit serviciu și ai nevoie de asistență suplimentară? Ai un proiect în minte și nu ești sigur dacă se află în gama noastră de servicii? Pentru a găsi răspunsuri la oricare dintre aceste întrebări sau altele, complează formularul de contact de mai jos și te vom contacta cât de repede posibil.",
+		"info": "datele de contact",
+		"email": "Email la",
+		"write": "Scrie-ne pe",
+		"hours": "Program de lucru",
+		"timezone": "Fus orar"
+	},
+
+	"form": {
+		"fillout": "Completeaza",
+		"contactform": "Formularul de contact",
+
+		"fullname": "Nume Complet",
+		"email": "E-mail",
+		"company": "Numele Companiei",
+		"subject": "Subiect",
+		"industry": "Domeniul de Activitate",
+		"source": "Unde ai auzit de Moonlet",
+
+		"interested": "Interesat(ă) de",
+		"base": "Pachetul de Bază",
+		"essential": "Pachetul Esențial",
+		"extra": "Pachetul Extra",
+		"other": "Altceva",
+
+		"message": "Mesaj",
+		"send": "Trimite"
+	},
+
+	"faq": {
+		"frequentlyasked": "Întrebări Adresate Frecvent",
+
+		"q1": "Cât timp va dura până voi primi design-un final?",
+		"a1": "În funcție de pachet sau serviciu, de cât timp ia comunicarea și de existența altor angajamente în derulare, poate lua între 2 și 6 săptămâni. Vei primi o estimare mai exactă după ce evaluăm proiectul tău. Punctualitatea și promptitudinea sunt valori importante pentru noi, dar nu trecem niciodată în grabă printr-un proiect, și alegem mereu calitatea, nu cantitatea.",
+		"q2": "Cum se realizează plata?",
+		"a2": "La începutul colaborarii noastre, după ce toate informațiile privind serviciile și prețul sunt clare, vei putea face un depozit nerambursabil de 50%. Când proiectul este finalizat și ești satisfăcut de rezultat, restul de 50% se va achita, urmat de transferul fișierelor.",
+		"q3": "Cum păstrăm legătura pe parcurs?",
+		"a3": "Deoarece acesta este un studio de design on-line, deschis pentru clienți din întreaga lume, comunicarea se face majoritar prin e-mail. Este o modalitate eficientă, ideile pot fi exprimate în voie, iar corespondența noastră va reprezenta fundația proiectului. Pentru chestiuni urgente care necesită un canal de comunicare mai direct, putem folosi cu usurință chat-ul Facebook de pe contul nostru <a href='https://www.facebook.com/moonletdesignstuff/' class='text-green underline' target='_blank'>Moonlet Design&Stuff.</a>",
+		"q4": "Oferiți și servicii de web-design?",
+		"a4": "Orice brand care plănuiește să aibă o prezență on-line ar trebui să considere achiziționarea unui web-site. După ce îți vei primi pachetul de branding, poți să achiziționezi și un site care să se potrivească. Pentru cerințele noastre de web development, precum și cele ale clienților noștri, apelăm la un studio fain de web design. Scrie-ne pe mail și îți trimitem informațiile de contact.",
+		"q5": "Ce fac dacă am nevoie de ajutor cu design-ul, după?",
+		"a5": "Suntem mereu aici să iți răspundem la întrebări, și să oferim un anumit nivel de suport după finalizarea proiectului. Bineînțeles, orice modificări substanțiale sau proiecte adiționale vor fi disponibile pentru a fi achiziționate. Dă-ne un mesaj și vom găsi o soluție împreună.",
+		"q6": "Unde pot lăsa o recenzie?",
+		"a6": "Apreciem tot și orice feedback din partea clienților noștri, referitor la toate aspectele din procesul de design. Acesta ajută alte persoane în a-și putea da seama dacă li s-ar potrivi o colaborare cu noi. Poți lăsa un comentariu pe orice social media ce o folosim, și pentru recenzii în mod specific, este <a href='https://www.facebook.com/moonletdesignstuff/reviews' class='text-green underline' target='_blank'>secțiunea de rating de pe Facebook.</a>"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"title": "Cookies Policy",
+	"ofmoonlet": "of Moonlet Design&Stuff",
+	"longtitle": "Cookie and Privacy Policy of Moonlet Design&Stuff",
+
+	"general": {
+		"title": "General Information",
+		"paragraph1": "This Privacy Policy describes how your personal information is collected and used when you ('you', 'your', 'user/client/visitor') visit moonletdesign.com, the website of Moonlet Design&Stuff ('us', 'we', 'our').",
+		"paragraph2": "This website is operated by Moonlet Design&Stuff (Preda C Diana Intreprindere Individuala), with the place of business in Brasov, Romania.",
+		"paragraph3": "We reserve the right to make changes to this privacy policy at any time. We strongly recommend you to check this page often, referring to the date of the last modification which will be noted here.",
+		"paragraph4": "The privacy policy was last updated on: December 12th, 2023."
+	},
+
+	"datatype": {
+		"title": "What type of data is collected",
+		"paragraph1": "Personal data/personal information means any information about an individual from which that person can be identified. This does not include information where the identity has been removed - anonymous data. Here are the types of personal data collected through the website: Identity data - first name, last name and company name. This data is collected when you fill in the contact form.",
+		"paragraph2": "Contact data - email address. This data is collected when you fill in the contact form.",
+		"paragraph3": "Technical data - your IP (Internet Protocol) address, browser type, time zones, locations, operating systems and platforms and other devices you use to access this website. The data is collected through a third party, Google Analytics.",
+		"paragraph4": "Usage data - includes information about how you use the website. This is also collected with Google Analytics.",
+		"paragraph5": "Tracking data - information that is collected from you via cookies. Cookies are small pieces of data stored on your computer or mobile device by your web browser. See section 5 for more details."
+	},
+
+	"collection": {
+		"title": "How your personal data is collected",
+		"paragraph1": "Personal data is collected for the following purposes and using the following services:",
+
+		"ga": {
+			"title": "Google Analytics",
+			"paragraph1": "Google Analytics is a web analysis service provided by Google, and it utilizes the data collected to track and examine the use of this website, to prepare reports on its activities and share them with other Google services.",
+			"paragraph2": "Google may use the data collected to contextualize and personalize the ads of its own advertising network.",
+			"paragraph3": "You can read their privacy policy <a href='https://policies.google.com/privacy?hl=en-US' style='text-decoration: underline'>here.</a>"
+		},
+
+		"contactform": {
+			"title": "Contact form (on this website)",
+			"paragraph1": "When you contact us via the contact form on our website, filling in the needed fields (first name, last name, company name, email, the service you'd like, and the message), you authorize us to use these details to reply to any request for information, questions or inquires."
+		},
+
+		"dm": {
+			"title": "Direct email",
+			"paragraph1": "In case you choose to contact us directly and not through the contact form on the website, then you will be providing us your personal information through the email service.",
+			"paragraph2": "Most of the interaction with the client will be made through email, regardless of  how the first contact was made."
+		},
+
+		"questionnaire": {
+			"title": "Questionnaire",
+			"paragraph1": "At the beginning of our collaboration, we will ask you to fill in a Google Questionnaire, taylored made to get information regarding the design, and the person/company requesting it. We will be using the data you provide to us in order to create the product you requested.",
+			"paragraph2": "You can read the privacy policy <a href='https://policies.google.com/privacy?hl=en-US' style='text-decoration: underline'>here.</a>"
+		},
+
+		"socialmedia": {
+			"title": "Social media",
+			"paragraph1": "This type of service allows interaction with social networks or other external platforms directly from the pages of this website. The interaction and information obtained through this website are always subject to the user’s privacy settings for each social network. This type of service might still collect traffic data for the pages where the service is installed, even when users do not use it."
+		}
+	},
+
+	"purpose": {
+		"title": "The purpose of data processing",
+		"paragraph1": "The data concerning the user is collected to allow us to provide our services, as well as for the following purposes: analytics, contacting the user and interaction with external social media networks and platforms.",
+		"paragraph2": "You can find further detailed information about such purposes of processing and about the specific personal data used for each purpose in the respective sections of this policy."
+	},
+
+	"cookiesuse": {
+		"title": "The purpose of data processing",
+		"paragraph1": "Cookies are small pieces of data stored on your computer or mobile device by your web browser. They are typically used to keep track of the settings users have selected and actions they have taken on a site. They also help customize and improve your experience with a website.",
+		"paragraph2": "<p>This website uses cookies for many important reasons, such as:</p><ul style='padding-left: 1.25rem;'><li>- To provide a great experience for the visitors and customers.</li><li>- To monitor and analyze the performance, operation and effectiveness.</li><li>- To ensure the platform is secure and safe to use.</li></ul>"
+	},
+
+	"datause": {
+		"title": "How your personal data is being used",
+		"paragraph1": "<p>Your personal data will be used:</p><ul style='padding-left: 1.25rem;'><li>- When we reply back to your enquires and questions made through the website or direct email</li><li>- When we create a contract for you to for the use of our services, and an invoice at the beginning and end of those services</li><li>- When we send you the finished product/products</li><li>- To improve our services to you through information collected via Google Analytics. The information gathered will help us measure traffic and usage, including the pages you visit on our website, the browser that you use and the location from which you access our site</li></ul>"
+	},
+
+	"datakept": {
+		"title": "How long is your personal data kept",
+		"paragraph1": "We are required under Romanian tax law (art. 25 alin. (1) din Legea contabilitatii nr. 82/1991) to keep the clients personal data (name, address, contact information) for a minimum of 10 years. Data sent through inquires that remain as such, is kept for less time."
+	},
+
+	"storesharedisclose": {
+		"title": "How we store, share and disclose your personal data",
+		"paragraph1": "Our company is hosted on the AWS, which provides us with the online platform that allows us to present and sell our services to you. Your data is stored through data storage, databases and the general applications. They store your data on secure servers behind a firewall.",
+		"paragraph2": "Also, your data from official documents such as contracts and invoices will be securely stored in our physical project files.",
+		"paragraph3": "We do not share or disclose your personal information with anyone, unless you have agreed for us to do so."
+	},
+
+	"3rdparty": {
+		"title": "Third party links",
+		"paragraph1": "This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and we are not responsible for their privacy policies. We encourage you to read the privacy policy of the websites you visit."
+	},
+
+	"legalrights": {
+		"title": "Your legal rights",
+		"paragraph1": "If the General Data Protection Regulation applies to you because you are in the European Union, you have rights under data protection laws in relation to your personal data.",
+		"paragraph2": "If you at any point believe the information we process on you is incorrect, you can request to see it or have it corrected/deleted (unless it's information we are required by Romanian law to keep). Contact us by email to sort that out.",
+		"paragraph3": "If you wish to make a complaint regarding the processing of your data, please contact us first at  in order to look into the situation and securely rectify it."
+	},
+
+	"children": {
+		"title": "Use of the site by children",
+		"paragraph1": "We don't provide services for purchase for anyone under 18, and we don't market to children. If someone under 18 requires our services, they may do so through their legal guardian. The website is safe to view by any age group."
+	},
+
+	"contact": {
+		"title": "Contact",
+		"paragraph1": "If you need any information regarding this privacy policy, if you have any questions or you would like to make a complaint, please contact us by email at <a href='mailto:hello@moonletdesign.com' style='text-decoration: underline;'>hello@moonletdesign.com</a>"
+	}
+}

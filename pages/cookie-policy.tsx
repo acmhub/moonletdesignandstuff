@@ -1,19 +1,17 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import dynamic from "next/dynamic";
 import Layout from "../components/app";
 import AnimateSectionTitle from "../components/animate/section-title";
-import useIsCookieConsentGiven from "../hooks/useIsCookieConsentGiven";
+import ToggleCookies from "../components/sections/cookie-policy/toggle-cookies";
 
 function CookiePolicy() {
 	const { t } = useTranslation("cookies");
-	const [cookieConsent, toggleCookieConsent] = useIsCookieConsentGiven();
 
 	return (
 		<Layout title={t("title").toString()} canonical="https://moonletdesign.com/cookie-policy" page="cookie">
 			<div className="header-gradient" />
-			<div className="relative top-spacing pt-28">
-				<section className="container font-taviraj section-spacing text-white">
+			<div className="relative container text-white top-spacing">
+				<section className="font-taviraj mb-10 pt-28">
 					<h1 className="text-center mb-20">
 						<AnimateSectionTitle>
 							<span className="block font-signature text-6xl mb-2">{t("title")}</span>
@@ -64,7 +62,9 @@ function CookiePolicy() {
 							<div className="space-y-2.5 pl-4">
 								<p
 									className="font-montserrat text-beige"
-									dangerouslySetInnerHTML={{ __html: t("collection.contactform.title").toString() }}
+									dangerouslySetInnerHTML={{
+										__html: t("collection.contactform.title").toString(),
+									}}
 								/>
 								<p
 									dangerouslySetInnerHTML={{
@@ -85,7 +85,9 @@ function CookiePolicy() {
 							<div className="space-y-2.5 pl-4">
 								<p
 									className="font-montserrat text-beige"
-									dangerouslySetInnerHTML={{ __html: t("collection.questionnaire.title").toString() }}
+									dangerouslySetInnerHTML={{
+										__html: t("collection.questionnaire.title").toString(),
+									}}
 								/>
 								<p
 									dangerouslySetInnerHTML={{
@@ -98,7 +100,9 @@ function CookiePolicy() {
 							<div className="space-y-2.5 pl-4">
 								<p
 									className="font-montserrat text-beige"
-									dangerouslySetInnerHTML={{ __html: t("collection.socialmedia.title").toString() }}
+									dangerouslySetInnerHTML={{
+										__html: t("collection.socialmedia.title").toString(),
+									}}
 								/>
 								<p
 									dangerouslySetInnerHTML={{
@@ -157,38 +161,15 @@ function CookiePolicy() {
 							<div dangerouslySetInnerHTML={{ __html: t("contact.paragraph1").toString() }} />
 						</div>
 					</div>
-
-					<div className="text-center space-y-2.5 mt-20">
-						<p>{t("common:cookies.toggle")}</p>
-						<label
-							htmlFor="toggle-cookies"
-							className="flex items-center w-fit mx-auto space-x-4 cursor-pointer"
-						>
-							<span>{t("common:cookies.denied")}</span>
-							<span className="relative">
-								<input
-									id="toggle-cookies"
-									type="checkbox"
-									className="hidden peer"
-									defaultChecked={cookieConsent === "granted" ? true : false}
-									onChange={() =>
-										toggleCookieConsent(cookieConsent === "granted" ? "denied" : "granted")
-									}
-								/>
-								<div className="w-10 h-6 rounded-full shadow-inner bg-red-800 peer-checked:bg-green"></div>
-								<div className="absolute transition-all inset-y-0 left-0 w-4 h-4 m-1 rounded-full shadow peer-checked:right-0 peer-checked:left-auto bg-light"></div>
-							</span>
-							<span>{t("common:cookies.granted")}</span>
-						</label>
-					</div>
 				</section>
+
+				<ToggleCookies />
 			</div>
 		</Layout>
 	);
 }
 
-const DynamicCookiePolicy = dynamic(() => Promise.resolve(CookiePolicy), { ssr: false });
-export default DynamicCookiePolicy;
+export default CookiePolicy;
 
 export const getStaticProps = async ({ locale }: { locale: string }) => ({
 	props: {

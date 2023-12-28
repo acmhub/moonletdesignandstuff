@@ -103,5 +103,17 @@
 	"contact": {
 		"title": "Contact",
 		"paragraph1": "If you need any information regarding this privacy policy, if you have any questions or you would like to make a complaint, please contact us by email at <a href='mailto:hello@moonletdesign.com' style='text-decoration: underline;'>hello@moonletdesign.com</a>"
+	},
+
+	"toggle": {
+		"current_state": "Current state of cookies:",
+		"not_decided": "Not decided yet.",
+		"all_granted": "All granted.",
+		"denied": "Denied",
+		"functionality_only": "Functionality only",
+		"performance_only": "Performance only",
+		"disable": "Disable Cookies",
+		"activate": "Activate",
+		"apply": "Apply changes"
 	}
 }

@@ -57,12 +57,9 @@
 		"banner_p2": "cookies page.",
 		"functionality": "Functionality",
 		"performance": "Performance & Analytics",
+		"select": "At least one option must be selected.",
 		"decline": "Decline",
-		"accept": "Accept",
-
-		"toggle": "Toggle the use of cookies below",
-		"denied": "Denied",
-		"granted": "Granted"
+		"accept": "Accept"
 	},
 
 	"404": {

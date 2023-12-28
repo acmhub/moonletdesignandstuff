@@ -8,8 +8,8 @@ interface AnalyticsOptions {
 }
 
 const useGoogleAnalytics = () => {
-	const [cookieConsent, toggleCookieConsent] = useIsCookieConsentGiven();
-	if (!cookieConsent) return { trackEvent: () => {} };
+	const { cookieConsent } = useIsCookieConsentGiven();
+	if (cookieConsent !== ("granted" || "performance")) return { trackEvent: () => {} };
 
 	const trackEvent = ({ category, action, label }: AnalyticsOptions) => {
 		event(category, {

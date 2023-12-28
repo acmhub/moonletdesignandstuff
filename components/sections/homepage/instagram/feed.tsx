@@ -4,12 +4,12 @@ import useCookieConsent from "../../../../hooks/useIsCookieConsentGiven";
 
 function Feed() {
 	const [posts, setPosts] = useState([]);
-	const [cookieConsent, toggleCookieConsent] = useCookieConsent();
+	const { cookieConsent } = useCookieConsent();
 	const access_token = process.env.NEXT_PUBLIC_INSTAGRAM_ACCESS_TOKEN;
 
 	useEffect(() => {
 		const fetchPosts = async () => {
-			if (cookieConsent !== "denied") {
+			if (cookieConsent === "granted" || cookieConsent === "functionality") {
 				const apiUrl = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&limit=6&access_token=${access_token}`;
 				const response = await fetch(apiUrl);
 				const data = await response.json();

@@ -1,15 +1,11 @@
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-import Cookies from "js-cookie";
 import { consent } from "nextjs-google-analytics";
+import Cookies from "js-cookie";
 
-const useCookieConsent = (): ["denied" | "granted" | undefined, (response: "denied" | "granted") => void] => {
-	const router = useRouter();
-	const [cookieConsent, setCookieConsent] = useState<"denied" | "granted" | undefined>(
-		(Cookies.get("cookie_consent") as "denied" | "granted" | undefined) || undefined
-	);
+const useCookieConsent = () => {
+	const [cookieConsent, setCookieConsent] = useState<string | null>(null);
 
-	const removeAllCookies = () => {
+	const clearCookies = () => {
 		const cookies = Cookies.get();
 		for (const cookie in cookies) {
 			if (cookie !== "cookie_consent") {
@@ -19,55 +15,39 @@ const useCookieConsent = (): ["denied" | "granted" | undefined, (response: "deni
 	};
 
 	useEffect(() => {
-		const existingConsent = Cookies.get("cookie_consent");
-
-		if (existingConsent === "granted") {
-			setCookieConsent("granted");
-		} else {
-			removeAllCookies();
-		}
-	}, []);
-
-	useEffect(() => {
-		const existingConsent = Cookies.get("cookie_consent");
-
-		if (cookieConsent || existingConsent === undefined) {
+		const initialConsent = Cookies.get("cookie_consent");
+		if (initialConsent) {
+			setCookieConsent(initialConsent);
 			consent({
 				arg: "update",
 				params: {
-					ad_storage: cookieConsent ? "granted" : "denied",
-					analytics_storage: cookieConsent ? "granted" : "denied",
+					ad_storage: initialConsent === "granted" || initialConsent === "performance" ? "granted" : "denied",
+					analytics_storage:
+						initialConsent === "granted" || initialConsent === "performance" ? "granted" : "denied",
 				},
 			});
 		}
-	}, [router.pathname, cookieConsent]);
+	}, []);
 
-	const toggleCookieConsent = (response: "denied" | "granted") => {
+	const toggleCookieConsent = (response: string) => {
+		Cookies.set("cookie_consent", String(response), { expires: 21 });
+		setCookieConsent(response);
+
+		if (response === "denied") clearCookies();
 		consent({
 			arg: "update",
 			params: {
-				ad_storage: response,
-				analytics_storage: response,
+				ad_storage: response === "granted" || response === "performance" ? "granted" : "denied",
+				analytics_storage: response === "granted" || response === "performance" ? "granted" : "denied",
 			},
 		});
-
-		if (response === "denied") {
-			removeAllCookies();
-			Cookies.set("cookie_consent", response);
-		} else {
-			const twoWeeksFromNow = new Date();
-			twoWeeksFromNow.setDate(twoWeeksFromNow.getDate() + 14);
-			Cookies.set("cookie_consent", response, { expires: twoWeeksFromNow });
-		}
-
-		setCookieConsent(response);
 
 		let timeout;
 		clearTimeout(timeout);
 		timeout = setTimeout(() => window.location.reload(), 200);
 	};
 
-	return [cookieConsent, toggleCookieConsent];
+	return { cookieConsent, toggleCookieConsent };
 };
 
 export default useCookieConsent;

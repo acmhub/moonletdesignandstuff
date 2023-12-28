@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "next-i18next";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
@@ -18,6 +18,18 @@ function Form({ pack }: { pack: string }) {
 	const formEl = useRef<HTMLFormElement | null>(null);
 	const [checkedPacks, setCheckedPacks] = useState<string[]>([]);
 	const [isOtherChecked, setIsOtherChecked] = useState(false);
+
+	useEffect(() => {
+		if (pack) {
+			setCheckedPacks(
+				pack === "base"
+					? Array("Base Pack")
+					: pack === "essential"
+					? Array("Essential Pack")
+					: Array("Extra Pack")
+			);
+		}
+	}, [pack]);
 
 	const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		const value = e.target.value;
@@ -46,7 +58,6 @@ function Form({ pack }: { pack: string }) {
 
 			if (formEl.current) {
 				const response = await emailjs.sendForm(serviceId, templateId, formEl.current, userId);
-				console.log(response);
 
 				if (response.status === 200) {
 					trackEvent({
@@ -104,19 +115,19 @@ function Form({ pack }: { pack: string }) {
 									value="Base Pack"
 									label={t("form.base")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "base"}
+									checked={checkedPacks.includes("Base Pack")}
 								/>
 								<Checkbox
 									value="Essential Pack"
 									label={t("form.essential")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "essential"}
+									checked={checkedPacks.includes("Essential Pack")}
 								/>
 								<Checkbox
 									value="Extra Pack"
 									label={t("form.extra")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "extra"}
+									checked={checkedPacks.includes("Extra Pack")}
 								/>
 
 								<Checkbox value="other_pack" label={t("form.other")} onChange={handleCheckboxChange} />
@@ -141,19 +152,19 @@ function Form({ pack }: { pack: string }) {
 									value="Base Pack"
 									label={t("form.base")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "base"}
+									checked={checkedPacks.includes("Base Pack")}
 								/>
 								<Checkbox
 									value="Essential Pack"
 									label={t("form.essential")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "essential"}
+									checked={checkedPacks.includes("Essential Pack")}
 								/>
 								<Checkbox
 									value="Extra Pack"
 									label={t("form.extra")}
 									onChange={handleCheckboxChange}
-									defaultChecked={pack === "extra"}
+									checked={checkedPacks.includes("Extra Pack")}
 								/>
 
 								<Checkbox value="other_pack" label={t("form.other")} onChange={handleCheckboxChange} />

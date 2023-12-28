@@ -74,7 +74,7 @@ input:-webkit-autofill:focus {
  */
 .checkbox {
 	--border: var(--light);
-	--border-hover: var(--beige);
+	--border-hover: var(--light);
 	--border-active: var(--green);
 	position: relative;
 }
@@ -102,11 +102,6 @@ input:-webkit-autofill:focus {
 .checkbox input:hover {
 	--s: 2px;
 	--b: var(--border-hover);
-}
-
-#customised-cookies-form .checkbox input:hover {
-	--s: 2px;
-	--b: var(--green);
 }
 
 .checkbox input:checked {

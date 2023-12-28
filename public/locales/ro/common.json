@@ -57,12 +57,9 @@
 		"banner_p2": "pagina de cookies.",
 		"functionality": "Funcţionalitate",
 		"performance": "Performanță și Analiză",
+		"select": "Trebuie selectată măcar o opțiune.",
 		"decline": "Refuză",
-		"accept": "Acceptă",
-
-		"toggle": "Modificați mai jos utilizarea cookie-urilor",
-		"denied": "Refuzate",
-		"granted": "Acceptate"
+		"accept": "Acceptă"
 	},
 
 	"404": {

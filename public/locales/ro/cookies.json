@@ -103,5 +103,17 @@
 	"contact": {
 		"title": "Contact",
 		"paragraph1": "Daca aveți nevoie de informații privind această poliță de confidențialitate, daca aveți orice întrebare sau ați dori să faceți o plângere, vă rugăm să ne contactați pe e-mail la adresa <a href='mailto:hello@moonletdesign.com' style='text-decoration: underline;'>hello@moonletdesign.com</a>"
+	},
+
+	"toggle": {
+		"current_state": "Starea curentă a cookie-urilor:",
+		"not_decided": "Nedecis încă.",
+		"all_granted": "Toate permise.",
+		"denied": "Interzise.",
+		"functionality_only": "Doar de funcționalitate",
+		"performance_only": "Doar de performanță",
+		"disable": "Dezactivează Cookies",
+		"activate": "Activează",
+		"apply": "Aplică modificările"
 	}
 }

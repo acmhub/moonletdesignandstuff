@@ -7,7 +7,7 @@ import useIsCookieConsentGiven from "../../hooks/useIsCookieConsentGiven";
 import Header from "./header";
 import Footer from "./footer";
 
-const CookiesBanner = dynamic(() => import("./cookies"));
+const CookiesBanner = dynamic(() => import("./cookie-banner"));
 const BackToTop = dynamic(() => import("./backToTop"));
 
 interface LayoutProps {
@@ -20,7 +20,7 @@ interface LayoutProps {
 
 function Layout({ page, title, description, canonical = "https://moonletdesign.com/", children }: LayoutProps) {
 	const { t } = useTranslation();
-	const [cookieConsent] = useIsCookieConsentGiven();
+	const { cookieConsent } = useIsCookieConsentGiven();
 
 	return (
 		<React.Fragment>
@@ -41,8 +41,9 @@ function Layout({ page, title, description, canonical = "https://moonletdesign.c
 				<Footer />
 
 				<BackToTop />
+
 				{!cookieConsent && <CookiesBanner />}
-				{cookieConsent === "granted" && <GoogleAnalytics trackPageViews />}
+				{cookieConsent === ("granted" || "performance") && <GoogleAnalytics trackPageViews />}
 			</div>
 		</React.Fragment>
 	);
